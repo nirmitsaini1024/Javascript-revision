@@ -72,4 +72,61 @@
 
 // console.log(`My name is ${name} and repo count is ${repo}`);
 
+//----
+
+// function test() {
+//   console.log(x);
+//   var x = 5;
+// }
+// test();
+//output:undefined
+
+//--------
+// let score;       // declaration
+// score = 100;     // initialization
+
+// let score = 100; // declaration + initialization
+
+//--------
+// function run() {
+//   let a = 10;
+//   if (true) {
+//     let a = 20;
+//     console.log(a);
+//   }
+//   console.log(a);
+// }
+// run();
+
+//output: 20, 10
+
+//-------
+// let data = { id: 0 }; 
+// console.log(data.id ?? 10);
+// console.log(data.id || 10);
+
+//0 and 10
+
+//------
+// typeof these below
+// | Expression   | typeof result |
+// | ------------ | ------------- |
+// | `[]`         | `"object"`    |
+// | `{}`         | `"object"`    |
+// | `(() => {})` | `"function"`  |
+// | `undefined`  | `"undefined"` |
+// | `NaN`        | `"number"`    |
+
+//------
+// let a = 1;
+// console.log(a++); // ?
+// console.log(++a); // ?
+//------
+
+
+// let x;
+// console.log(x);
+// x = 10;
+//output: undefined
+//You declared the variable x but haven’t assigned it a value yet. So x is undefined by default.
 
