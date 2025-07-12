@@ -117,3 +117,59 @@
 
 // What is Object.entries()?
 // It’s a method that takes an object and returns an array of key–value pairs.
+
+//----------
+
+
+// const [a, , b] = [10, 20, 30];
+// console.log(a, b); // ?
+
+
+//--------
+
+// const a = { x: 1 };
+// const b = { x: 1 };
+
+// console.log(a === b); 
+
+//-----------
+
+// const arr1 = [1, 2, 3];
+// const arr2 = arr1;
+
+// arr2.push(4);
+
+// console.log(arr1); 
+
+
+
+//--------
+
+// const a = { x: 1, y: 2 };
+// const b = { y: 2, x: 1 };
+
+// console.log(JSON.stringify(a) === JSON.stringify(b)); 
+
+//---------
+
+// let arr = [1, 2];
+// let newArr = arr;
+// newArr.push(3);
+
+// let arr2 = [...arr];
+// arr2.push(4);
+
+// console.log(arr);   // ?
+// console.log(arr2);  // ?
+
+//-------
+const user = {
+  name: "Nirmit",
+  age: 22,
+  password: "secret"
+};
+
+const { password, ...safeUser } = user;
+
+console.log(safeUser);
+// { name: 'Nirmit', age: 22 }
