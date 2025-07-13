@@ -187,3 +187,49 @@
 
 //--------
 
+// const sym = Symbol("id");
+// const obj = { [sym]: 123, name: "test" };
+
+// const output1 = Object.assign({}, obj)
+// const output = {...obj}
+// console.log(output);
+// console.log(output1);
+
+
+//---------
+
+// const base = { info: { name: "Nirmit" } };
+// const copy = { ...base };
+
+// copy.info.name = "Changed";
+
+// console.log(base.info.name); 
+
+//output: changed
+
+//---------
+
+// const arr = [1, 2, 3, 4, 5];
+
+//const output = arr.slice(-2)
+
+// const output = arr.splice(-2)
+// Start 2 elements from the end, and remove everything after that.
+
+
+// console.log(output);
+// console.log(arr);
+
+//----------
+
+// const arr = [1, , 3];
+// console.log(arr.length);         
+// console.log(arr.map(x => x));   
+
+//-----
+// const obj = { a: 1 };
+// Object.freeze(obj);
+// obj.a = 2;
+// obj.b = 3;
+
+// console.log(obj);
