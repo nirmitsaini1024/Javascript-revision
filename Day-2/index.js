@@ -163,13 +163,27 @@
 // console.log(arr2);  // ?
 
 //-------
-const user = {
-  name: "Nirmit",
-  age: 22,
-  password: "secret"
-};
+// const user = {
+//   name: "Nirmit",
+//   age: 22,
+//   password: "secret"
+// };
 
-const { password, ...safeUser } = user;
+// const { password, ...safeUser } = user;
 
-console.log(safeUser);
+// console.log(safeUser);
 // { name: 'Nirmit', age: 22 }
+
+//------
+
+// const nums = [1, 2, 3, 4, 5];
+
+// const output = nums.reduce(function(acc, curr){
+//   acc = acc + curr;
+//   return acc;
+// })
+// console.log(output);
+
+
+//--------
+
