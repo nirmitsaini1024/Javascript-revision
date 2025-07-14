@@ -90,9 +90,13 @@
 
 //------------
 
-const x = function hello() {
-  return "hi";
-};
+// const x = function hello() {
+//   return "hi";
+// };
 
-console.log(x());      // works
-console.log(hello());  // what happens?
+// console.log(x());      // works
+// console.log(hello());  // what happens?
+
+
+//----------
+
